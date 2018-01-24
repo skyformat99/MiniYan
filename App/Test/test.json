@@ -1,0 +1,28 @@
+{
+  "retcode": 200,
+  "retmsg": "成功",
+  "data": {
+    "app_version": {
+      "last": "0.8",
+      "force_upgrade": false
+    },
+    "startup_info": {
+      "area_list": [
+        {
+          "id": 1,
+          "name": "上海"
+        },
+        {
+          "id": 2,
+          "name": "其他"
+        }
+      ],
+      "side_image": "http://s3.cn-north-1.amazonaws.com.cn/caozonghua-bucket01/201604/22/img_1AGURL2NO9M0P.jpg",
+      "bottombar_4_3_image": "http://s3.cn-north-1.amazonaws.com.cn/caozonghua-bucket01/201604/22/img_1AGURK3RBEH42.png",
+      "bottombar_16_9_image": "http://s3.cn-north-1.amazonaws.com.cn/caozonghua-bucket01/201604/25/img_1AH6CTJQ5FDES.png"
+    },
+    "server_info": {
+      "timestamp": -1
+    }
+  }
+}
