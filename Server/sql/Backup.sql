@@ -1,0 +1,1 @@
+INSERT INTO UserInfo(userType, userName, userPw) VALUES(1, 'yanbo', 'www');

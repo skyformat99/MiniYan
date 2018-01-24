@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta http-equiv="Cache-control" content="no-cache" />
+    <title></title>
+</head>
+<body>
+<div>
+</div>
+</body>
+<script>
+	class Test
+	{
+		prop name;
+		prop pwd;
+
+		function get_name(x, y, z) {
+            return x+y+z;
+		}
+
+		function get_pwd() {
+			name=11000;
+			name=name+3;
+			return name;
+		}
+	}
+    function mul(left, right)
+	{
+		return left * right
+	}
+	function add(x, y, fn)
+    {
+        return x+y+fn(x,y);
+    }
+	function main()
+	{
+	    var yanbo, meiyue, wo, hello, obj;
+		yanbo=2;
+		wo=10;
+		meiyue=yanbo+yanbo*wo*3;
+		do {
+		    meiyue=meiyue-1;
+			if(meiyue==30){
+			    break;
+			}
+		} while(meiyue>0);
+		hello=add(yanbo,wo,mul);
+		wo=hello+3;
+
+	    obj=new(Test);
+		obj.name=2017;
+		wo=obj.name+1;
+		wo=obj.get_name(obj.name,2,1000);
+		wo=obj.get_pwd();
+		wo=obj.name+110;
+    }
+</script>
+</html>

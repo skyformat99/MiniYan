@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dbroot>
+    <dbhost>127.0.0.1</dbhost>
+    <dbuser>root</dbuser>
+    <dbpwd></dbpwd>
+    <dbname>bogame</dbname>
+</dbroot>
